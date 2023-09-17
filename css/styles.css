@@ -1,0 +1,146 @@
+body {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("/img/choco.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.hero {
+    background-image: url("/img/choco.jpg");
+    background-size: cover;
+    width: 720px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hero-text {
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+    text-shadow: 0px 0px 4px black;
+    text-align: center;
+}
+
+.activities {
+    background: linear-gradient(rgb(37, 202, 106), rgb(18, 46, 68));
+    width: 720px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-act {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+
+.fun-activities {
+    display: flex;
+    justify-content: center;
+}
+
+.activitie {
+    margin: 10px;
+    text-shadow: 1px 1px 4px black;
+}
+
+.title-activities {
+    margin-top: 0;
+    padding-top: 30px;
+    text-shadow: 1px 1px 4px black;
+}
+
+.guide-info {
+    background-image: url("/img/choco1.jpg");
+    background-size: cover;
+    width: 720px;
+    height: 340px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 290px;
+    background-color: rgba(8, 168, 69, 0.61);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border-bottom: 9px solid rgba(17, 54, 49, 0.363);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.61);
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.guide-text {
+    padding: 20px;
+    text-shadow: 1px 1px 4px black;
+}
+
+.guide-text:hover {
+    background-color: rgba(90, 141, 88, 0.452);
+    text-shadow: 1px 1px 4px black;
+}
+
+.contact {
+    background: linear-gradient(rgb(77, 185, 77), rgb(210, 245, 227));
+    width: 720px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.btn {
+    font-weight: bold;
+    background-color: rgb(14, 214, 81);
+    width: 80px;
+    height: 40px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.send-email {
+    height: 35px;
+    background-color: whitesmoke;
+    border: 2px solid rgb(76, 109, 26);
+    border-radius: 8px;
+}
+
+.contact-text {
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(251, 255, 0);
+}
+
+.cta {
+    background-color: rgba(141, 9, 9, 0.637);
+    padding: 8px;
+    border-radius: 10px;
+}
